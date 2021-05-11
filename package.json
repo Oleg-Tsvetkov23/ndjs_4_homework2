@@ -1,0 +1,33 @@
+{
+  "name": "ndjs_4_homework2",
+  "version": "1.0.0",
+  "description": "Домашнее задание к занятию «1.4 Потоки. Модули: fs, path»",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oleg-Tsvetkov23/ndjs_4_homework2.git"
+  },
+  "keywords": [
+    "fs",
+    "path",
+    "readline",
+    "console"
+  ],
+  "author": "o.tsvetkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oleg-Tsvetkov23/ndjs_4_homework2/issues"
+  },
+  "homepage": "https://github.com/Oleg-Tsvetkov23/ndjs_4_homework2#readme",
+  "dependencies": {
+    "readline": "^1.3.0",
+    "yargs": "^17.0.1"
+  },
+  "bin": {
+    "myGame2": "game.js",
+    "logAnalize": "logParse.js"
+  }
+}
